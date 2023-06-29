@@ -43,7 +43,7 @@ function Events() {
         }
     };
 
-    const updateEvent = async (eventId, eventData) => {
+    /*const updateEvent = async (eventId, eventData) => {
         try {
             const response = await axios.put(
                 API_ENDPOINT + `/events/${eventId}`,
@@ -57,7 +57,7 @@ function Events() {
         } catch (error) {
             console.error(error);
         }
-    };
+    };*/
 
     const deleteEvent = async (eventId) => {
         try {
