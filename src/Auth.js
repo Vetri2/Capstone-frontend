@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import API_ENDPOINT from "./constant";
+import {API_ENDPOINT} from "./constant";
 
 function Auth() {
     const [email, setEmail] = useState("");
