@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import API_ENDPOINT from "./constant";
+import {API_ENDPOINT} from "./constant";
 
 function Events() {
     const [events, setEvents] = useState([]);
